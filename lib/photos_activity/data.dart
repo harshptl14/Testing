@@ -46,19 +46,7 @@ const List data = [
         color: Colors.white,
       ),
       "iconBackground": Colors.redAccent},
-  // EventGallery(
-  //     name: "Al-Hasan Ibn al-Haytham",
-  //     time: "c. 965 - c. 1040",
-  //     content:
-  //         "Ibn al-Haytham was the first to explain through experimentation that vision occurs when light bounces on an object and then is directed to one's eyes. He was also an early proponent of the concept that a hypothesis must be proved by experiments based on confirmable procedures or mathematical evidence—hence understanding the scientific method five centuries before Renaissance scientists.",
-  //     doodle:
-  //         "https://lh3.googleusercontent.com/ZTlbHDpH59p-aH2h3ggUdhByhuq1AfviGuoQpt3QqaC7bROzbKuARKeEfggkjRmAwfB1p4yKbcjPusNDNIE9O7STbc9C0SAU0hmyTjA=s660",
-  //     icon: Icon(
-  //       Icons.visibility,
-  //       color: Colors.black87,
-  //       size: 32.0,
-  //     ),
-  //     iconBackground: Colors.yellow),
+  
   // EventGallery(
   //     name: "Al-Bīrūnī",
   //     time: "973 - 1050",
