@@ -1,8 +1,5 @@
-import 'package:clubgammatesting/FAQ/faq.dart';
-import 'package:clubgammatesting/photos_activity/photosScreen.dart';
-import 'package:clubgammatesting/retrivingData/yaml.dart';
+import 'package:clubgammatesting/photos_activity/TimelineTesting.dart';
 import 'package:flutter/material.dart';
-import 'photos_activity/timeline.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,9 +13,9 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         home:
-        YamlDemo(), 
+        //YamlDemo(), 
         //FaqActivity()
-        //TimelinePage(title: 'Muslim Civilisation Doodles'),
+        Timeline(),
         );
   }
 }

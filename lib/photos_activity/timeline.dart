@@ -74,7 +74,7 @@ class _TimelinePageState extends State<TimelinePage> {
 
                   Container(
                     padding: EdgeInsets.only(top: 10, right: 220),
-                    child: Text('EVENT 1', style: TextStyle(color: Colors.red,
+                    child: Text('EVENT 1', style: TextStyle(color: Color(0xffD31E3C),
                     fontSize: 13
                     ),
                     textAlign: TextAlign.start,
@@ -86,7 +86,7 @@ class _TimelinePageState extends State<TimelinePage> {
                   ),
                   Container(
                     alignment: Alignment.center,
-                    child: Image.network(data[index]['doodle'][1]),
+                    child: Image.network(data[index]['doodle'][2]),
                     height: MediaQuery.of(context).size.height * 0.17,
                     width: MediaQuery.of(context).size.width * 0.7,
                   ),
@@ -106,7 +106,7 @@ class _TimelinePageState extends State<TimelinePage> {
 
                   Container(
                     padding: EdgeInsets.only(top: 10, right: 200),
-                    child: Text(data[index]['date'], style: TextStyle(color: Colors.red,
+                    child: Text(data[index]['date'], style: TextStyle(color: Color(0xffD31E3C),
                     fontSize: 13
                     ),
                     textAlign: TextAlign.start,
