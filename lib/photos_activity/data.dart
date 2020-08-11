@@ -20,12 +20,13 @@ List images;
 const List data = [
   {
     "name": "Introdunction to Git and GitHub",
-    "date": "22 aug, 2020",
+    "date": "2020-08-10",
+    "time" : "@9:00am",
     "content":
-        "Workshop Ibn al-Haytham was the first to explain through experimentation that vision occurs when light bounces on an ",
+        "Workshop Ibn al-Haytham was the first to explain through experimentation that vision ",
     "doodle": [
-            "https://user-images.githubusercontent.com/57007680/89457959-db68fd80-d783-11ea-82b3-41c999d2b641.png",
-
+      "https://user-images.githubusercontent.com/57007680/89570906-73c6b700-d844-11ea-934f-3021f3bc83b3.png",
+      "https://user-images.githubusercontent.com/57007680/89457959-db68fd80-d783-11ea-82b3-41c999d2b641.png",
       "https://image.slidesharecdn.com/gitandgithubtalk-181122071434/95/introduction-to-git-and-github-1-638.jpg?cb=1542871408",
       "https://lh3.googleusercontent.com/ZTlbHDpH59p-aH2h3ggUdhByhuq1AfviGuoQpt3QqaC7bROzbKuARKeEfggkjRmAwfB1p4yKbcjPusNDNIE9O7STbc9C0SAU0hmyTjA=s660",
     ],
@@ -34,8 +35,9 @@ const List data = [
   },
   {
     "name": "Event",
-    "date": "22 aug, 2020",
-    "content": "Event releated thing",
+    "date": "2020-08-09",
+    "time" : "@9:00am",
+    "content": "Workshop Ibn al-Haytham was the first to explain through experimentation that ",
     "doodle": [
       "https://images.unsplash.com/photo-1533659124865-d6072dc035e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
       "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
@@ -51,11 +53,13 @@ const List data = [
 
   {
     "name": "Al-Bīrūnī",
-    "date": "22 aug, 2020",
+    "date": "2020-08-05",
+    "time" : "@9:00am",
     "content":
-        "Biruni is regarded as one of the greatest scholars of the Golden Age of Muslim civilisation and was well versed in physics, mathematics, astronomy, and natural sciences, and also distinguished himself as a historian, chronologist and linguist. He studied almost all fields of science and was compensated for his research and strenuous work. Royalty and powerful members of society sought out Al-Biruni to conduct research and study to uncover certain findings.",
+        "Biruni is regarded as one of the greatest scholars of the Golden Age of Muslim.",
     "doodle": [
-        "https://lh3.googleusercontent.com/bFwiXFZEum_vVibMzkgPlaKZMDc66W-S_cz1aPKbU0wyNzL_ucN_kXzjOlygywvf6Bcn3ipSLTsszGieEZTLKn9NHXnw8VJs4-xU6Br9cg=s660",],
+      "https://lh3.googleusercontent.com/bFwiXFZEum_vVibMzkgPlaKZMDc66W-S_cz1aPKbU0wyNzL_ucN_kXzjOlygywvf6Bcn3ipSLTsszGieEZTLKn9NHXnw8VJs4-xU6Br9cg=s660",
+    ],
     "icon": Icon(
       Icons.account_balance,
       color: Colors.black87,
@@ -64,11 +68,13 @@ const List data = [
   },
   {
     "name": "Ibn Sina (Avicenna)",
-    "date": "22 aug, 2020",
+    "date": "2020-08-08",
+    "time" : "@9:00am",
     "content":
-        "Avicenna (Ibn Sīnā) was a Persian polymath who is regarded as one of the most significant physicians, astronomers, thinkers and writers of the Islamic Golden Age. He has been described as the father of early modern medicine. Of the 450 works he is known to have written, around 240 have survived, including 150 on philosophy and 40 on medicine.\nHis most famous works are The Book of Healing, a philosophical and scientific encyclopedia, and The Canon of Medicine, a medical encyclopedia which became a standard medical text at many medieval universities and remained in use as late as 1650. In 1973, Avicenna's Canon Of Medicine was reprinted in New York.\nBesides philosophy and medicine, Avicenna's corpus includes writings on astronomy, alchemy, geography and geology, psychology, Islamic theology, logic, mathematics, physics and works of poetry.",
+        "Avicenna (Ibn Sīnā) was a Persian polymath who is regarded as one of the most significant.",
     "doodle": [
-        "https://www.google.com/logos/doodles/2018/ibn-sinas-1038th-birthday-5768556863029248.2-2x.png",],
+      "https://www.google.com/logos/doodles/2018/ibn-sinas-1038th-birthday-5768556863029248.2-2x.png",
+    ],
     "icon": Icon(
       Icons.healing,
       color: Colors.white,
@@ -77,11 +83,13 @@ const List data = [
   },
   {
     "name": "Ibn Rushd (Averroes)",
-    "date": "22 aug, 2020",
+    "date": "2020-08-09",
+    "time" : "@9:00am",
     "content":
-        "Averroes was an Andalusian philosopher and thinker who wrote about many subjects, including philosophy, theology, medicine, astronomy, physics, Islamic jurisprudence and law, and linguistics. His philosophical works include numerous commentaries on Aristotle, for which he was known in the West as The Commentator. He also served as a judge and a court physician for the Almohad Caliphate.",
-    "doodle":
-       [ "https://lh3.googleusercontent.com/vk5ODrDXkJXCJ9z2lMnQdMb9m5-HKxDvn_Q67J8PBKPT9n67iCQFj37tB62ARaQQKnKwig-CcBT9NODmzoqdM56_UTUKZRELLYoz1lVU=s800",],
+        "Averroes was an Andalusian philosopher and thinker who wrote about many subjects.",
+    "doodle": [
+      "https://lh3.googleusercontent.com/vk5ODrDXkJXCJ9z2lMnQdMb9m5-HKxDvn_Q67J8PBKPT9n67iCQFj37tB62ARaQQKnKwig-CcBT9NODmzoqdM56_UTUKZRELLYoz1lVU=s800",
+    ],
     "icon": Icon(
       Icons.blur_circular,
       color: Colors.white,
@@ -90,11 +98,13 @@ const List data = [
   },
   {
     "name": "Nasir al-Din Tusi",
-    "date": "22 aug, 2020",
+    "date": "2020-08-07",
+    "time" : "@9:00am",
     "content":
-        "Tusi was a Persian polymath, architect, philosopher, physician, scientist, and theologian. He is often considered the creator of trigonometry as a mathematical discipline in its own right. Ibn Khaldun (1332–1406) considered Al-Tusi to be the greatest of the later Persian scholars.",
-    "doodle":
-       [ "https://lh3.googleusercontent.com/UBa5VOLYZNb9sqCZJeMrrS5ZW-KpDBZ7haT8aLPpHzeOZ8K_6TCP03_n-5VKIaewaRVqYkTF09OwvI4oQ2L2IqaUyWlTUkJb4E1uZF0=s660",],
+        "Tusi was a Persian polymath, architect, philosopher, physician, scientist, and",
+    "doodle": [
+      "https://lh3.googleusercontent.com/UBa5VOLYZNb9sqCZJeMrrS5ZW-KpDBZ7haT8aLPpHzeOZ8K_6TCP03_n-5VKIaewaRVqYkTF09OwvI4oQ2L2IqaUyWlTUkJb4E1uZF0=s660",
+    ],
     "icon": Icon(
       Icons.category,
       color: Colors.white,

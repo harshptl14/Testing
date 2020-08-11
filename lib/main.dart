@@ -1,4 +1,6 @@
+import 'package:clubgammatesting/EventSection/eventPage.dart';
 import 'package:clubgammatesting/photos_activity/TimelineTesting.dart';
+import 'package:clubgammatesting/retrivingData/yaml.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -13,9 +15,10 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         home:
-        //YamlDemo(), 
+        YamlDemo(), 
         //FaqActivity()
-        Timeline(),
+        //Timeline(),
+        //EventPage(),
         );
   }
 }

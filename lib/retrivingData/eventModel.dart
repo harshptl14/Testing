@@ -12,14 +12,14 @@ class EventModel {
       this.venue, this.regLink, this.speakers);
 
   EventModel.fromJson(Map<String, dynamic> data) {
-    title = data['title'];
-    description = data['description'];
-    imageLink = data['imageLinks'];
-    date = data['date'];
-    time = data['time'];
-    venue = data['venue'];
-    regLink = data['registrationLink'];
-    speakers = data['speakers'];
+      title = data['title'];
+      description = data['description'];
+      imageLink = data['imageLinks'];
+      date = data['date'];
+      time = data['time'];
+      venue = data['venue'];
+      regLink = data['registrationLink'];
+      speakers = data['speakers'];
   }
 
 }
