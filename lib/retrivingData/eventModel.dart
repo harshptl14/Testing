@@ -6,10 +6,9 @@ class EventModel {
   var time;
   var venue;
   var regLink;
-  var speakers;
 
   EventModel(this.title, this.description, this.imageLink, this.date, this.time,
-      this.venue, this.regLink, this.speakers);
+      this.venue, this.regLink);
 
   EventModel.fromJson(Map<String, dynamic> data) {
       title = data['title'];
@@ -19,7 +18,6 @@ class EventModel {
       time = data['time'];
       venue = data['venue'];
       regLink = data['registrationLink'];
-      speakers = data['speakers'];
   }
 
 }
